@@ -561,6 +561,19 @@ namespace AdaptiveCardDesigner.Controllers
             return Ok(cardDetails);
         }
 
+        [HttpGet("responsivelayout")]
+        public IActionResult GetResponsiveLayoutCard()
+        {
+            var cardDetails = new CardDetails
+            {
+                Id = "AC39",
+                Title = "Responsive layout card",
+                Description = "A customizable adaptive card component that supports adding and modifying icons, enhancing the visual appeal and interactivity of templated cards."
+            };
+
+            return Ok(cardDetails);
+        }
+
         // Fallback Image Styling
         [HttpGet("requiresfallback")]
         public IActionResult GetRequiresFallback()
