@@ -1,0 +1,6 @@
+@AdaptiveCardDesigner_HostAddress = http://localhost:5150
+
+GET {{AdaptiveCardDesigner_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
